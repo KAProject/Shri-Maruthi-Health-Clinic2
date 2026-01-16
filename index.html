@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Maruthi Health Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/mbbs-logo.png" alt="MBBS Logo">
+            </div>
+            <h1>Home</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="carousel">
+            <div class="carousel-container">
+                <div class="slide active">
+                    <img src="images/slide1.jpg" alt="Main Entrance">
+                </div>
+                <div class="slide">
+                    <img src="images/slide2.jpg" alt="Main Entrance">
+                </div>
+                <div class="slide">
+                    <img src="images/slide3.jpg" alt="Doctor">
+                </div>
+                <div class="slide">
+                    <img src="images/slide4.jpg" alt="Doctor">
+                </div>
+                <!-- <div class="slide">
+                    <img src="images/slide5.jpg" alt="Reception">
+                </div> -->
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </section>
+
+        <section class="clinic-info">
+            <div class="container">
+                <div class="timings">
+                    <h2>Timings</h2>
+                    <div class="timing-grid">
+                        <div class="timing-item">
+                            <strong>Clinic Timings</strong>
+                            <p>8:30 AM - 10:30 PM</p>
+                        </div>
+                        <div class="timing-item">
+                            <strong>Doctor Timings</strong>
+                            <p>10:00 AM to 02:00 PM</p>
+                            <p>05:00 PM to 10:30 PM</p>
+                        </div>
+                        <div class="timing-item">
+                            <strong>Nurse Available Timings</strong>
+                            <p>08:00 AM to 02:00 PM</p>
+                            <p>04:00 PM to 09:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intro">
+                    <h2>Welcome to SHRI MARUTHI HEALTH CLINIC</h2>
+                    <p>Shri Maruthi Health Clinic, we are committed to providing exceptional healthcare services with compassion and expertise. Our state-of-the-art facility is equipped with modern medical technology to ensure accurate diagnosis and effective treatment for all our patients.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dr. Atmanand Hiremath</h3>
+                <p>Your trusted healthcare partner</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <a href="tel:96636 01034" class="contact-link"><span>Phone: +91 96636 01034</span></a>
+            </div>
+            <div class="footer-section">
+                <h3>Location</h3>
+                <p>Shri Maruthi health clinic</p>
+                <p>Shop no 6 hanumantappa layout bilisivale main road opposite shobha Victoria apartment dr srk nagar post kyalasanahalli bangalore 560077</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Shri Maruthi Health Clinic. All rights reserved.</p>
+            <p>Developed by <a class="developer" href="https://kuberachar.netlify.app/" target="_blank">KUBERACHAR A M</a> </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

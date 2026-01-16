@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Maruthi Health Clinic - about</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="images-gallery.css">
+</head> 
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/mbbs-logo.png" alt="MBBS Logo">
+            </div>
+            <h1>About Us</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="doctor-profile">
+            <div class="container">
+                <div class="profile-content">
+                    <div class="doctor-image">
+                        <img src="images/Doctor.png" alt="Dr. Atmanand Hiremat">
+                    </div>
+                    <div class="doctor-details">
+                        <h2>Dr. Atmanand Hiremat (Dr.Anand)</h2>
+                        <h3>MBBS MD(AM)CMS & ED</h3>
+                        <h3>General physician & medical director</h3>
+                        
+                        <div class="education">
+                            <h3>Education</h3>
+                            <ul>
+                                <li>MBBS(AM),MD(AM) CMS & ED,CCH CGO</li>
+                                <li>MCI Reg No:R10003, 4509 & 0281</li>
+                            </ul>
+                        </div>
+
+                        <div class="intro">
+                            <p>Dr. Atmanand Shrishail Hiremath people call him Dr.Anand, is a dedicated and compassionate medical professional completed MBBS, MD, CMS & ED in National Institute of Medical Sciences New Delhi and he is the member of Karanataka Alternative Medical Council, Reg No R10003, 4509 & 0281. He have 15 years experiance in GENERAL MEDICINE, ORTHOPEDIC, GYNACOLOGY & PEADTRIC.</p>
+                        </div>
+
+                        <button class="reg_btn">
+                            <a href="https://www.medicalregistration.in">Check Doctor Registration</a>
+                        </button>                       
+
+                        <div class="achievements">
+                            <h3>Achievements & Recognition</h3>
+                            <p>Throughout his career,Atmanand has received numerous accolades for excellence in medical practice and patient care.</p>
+                        </div>
+                    </div>
+                </div>
+                <section id="gallery" class="gallery">
+                    <div class="container achievements">
+                        <h3>Click to view certificate</h3>
+                        <div class="gallery-content">
+                            <div class="tab-content" id="nails">
+                                <div class="gallery-grid">
+                                    <img src="images/certificate1.jpg" alt="Certificate Image">
+                                    <img src="images/certificate2.jpg" alt="Certificate Image">
+                                    <img src="images/certificate3.jpg" alt="Certificate Image">
+                                    <img src="images/certificate4.jpg" alt="Certificate Image">
+                                    <img src="images/certificate5.png" alt="Certificate Image">
+                                    <img src="images/certificate6.jpeg" alt="Certificate Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Lightbox Modal -->
+                <div id="lightbox" class="lightbox">
+                    <span class="close">&times;</span>
+                    <img class="lightbox-content" id="lightbox-img">
+                </div>        
+    
+    
+
+                <!-- <div class="certifications-grid">
+                    <div class="cert-item">
+                        <img src="images/certificate1.jpg" alt="Board Certification">
+                        <h4>Diploma Certification</h4>
+                    </div>
+                    <div class="cert-item">
+                        <img src="images/certificate2.jpg" alt="Medical License">
+                        <h4>Graduation certificate</h4>
+                    </div>
+                    <div class="cert-item">
+                        <img src="images/certificate3.jpg" alt="Fellowship Certificate">
+                        <h4>MBBS Degree Certificate</h4>
+                    </div>
+                    <div class="cert-item">
+                        <img src="images/certificate4.jpg" alt="CPR Certification">
+                         <h4>Membership Certificate</h4>
+                    </div>
+                    <div class="cert-item">
+                        <img src="images/certificate5.png" alt="Continuing Education">
+                        <h4>Appreciation Certificate</h4>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dr. Atmanand Hiremath</h3>
+                <p>Your trusted healthcare partner</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <a href="tel:96636 01034" class="contact-link"><span>Phone: +91 96636 01034</span></a>
+            </div>
+            <div class="footer-section">
+                <h3>Location</h3>
+                <p>Shri Maruthi health clinic</p>
+                <p>Shop no 6 hanumantappa layout bilisivale main road opposite shobha Victoria apartment dr srk nagar post kyalasanahalli bangalore 560077</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Shri Maruthi Health Clinic. All rights reserved.</p>
+            <p>Developed by <a class="developer" href="https://kuberachar.netlify.app/" target="_blank">KUBERACHAR A M</a> </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
